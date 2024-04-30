@@ -1,0 +1,347 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8163084361410491184
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4273963724478201859}
+  m_Layer: 0
+  m_Name: Aquaduct Block
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4273963724478201859
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8163084361410491184}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.91, y: 7.44, z: -6.87}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2685046437896121749}
+  - {fileID: 2685046438003966847}
+  - {fileID: 3089223671991859251}
+  - {fileID: 451205326197555768}
+  - {fileID: 5301079192813718468}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &3147983948531967228
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4273963724478201859}
+    m_Modifications:
+    - target: {fileID: 1075464460560672642, guid: 7991a9520fc174572a0878e728091ae4, type: 3}
+      propertyPath: m_Name
+      value: Aquaduct Water Top
+      objectReference: {fileID: 0}
+    - target: {fileID: 1075464460560672643, guid: 7991a9520fc174572a0878e728091ae4, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1075464460560672643, guid: 7991a9520fc174572a0878e728091ae4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1075464460560672643, guid: 7991a9520fc174572a0878e728091ae4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1075464460560672643, guid: 7991a9520fc174572a0878e728091ae4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1075464460560672643, guid: 7991a9520fc174572a0878e728091ae4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1075464460560672643, guid: 7991a9520fc174572a0878e728091ae4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1075464460560672643, guid: 7991a9520fc174572a0878e728091ae4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1075464460560672643, guid: 7991a9520fc174572a0878e728091ae4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1075464460560672643, guid: 7991a9520fc174572a0878e728091ae4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1075464460560672643, guid: 7991a9520fc174572a0878e728091ae4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1075464460560672643, guid: 7991a9520fc174572a0878e728091ae4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7991a9520fc174572a0878e728091ae4, type: 3}
+--- !u!4 &2685046438003966847 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1075464460560672643, guid: 7991a9520fc174572a0878e728091ae4, type: 3}
+  m_PrefabInstance: {fileID: 3147983948531967228}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3149355114694130961
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4273963724478201859}
+    m_Modifications:
+    - target: {fileID: 7072330072724043476, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_Name
+      value: Aquaduct Full Stand (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.565
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.44000006
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+--- !u!4 &5301079192813718468 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+  m_PrefabInstance: {fileID: 3149355114694130961}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5145016471163673408
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4273963724478201859}
+    m_Modifications:
+    - target: {fileID: 7072330072724043476, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_Name
+      value: Aquaduct Full Stand
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.565
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.44000006
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+--- !u!4 &2685046437896121749 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+  m_PrefabInstance: {fileID: 5145016471163673408}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5258751038160768742
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4273963724478201859}
+    m_Modifications:
+    - target: {fileID: 7072330072724043476, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_Name
+      value: Aquaduct Full Stand (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.9100001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.565
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.44000006
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+--- !u!4 &3089223671991859251 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+  m_PrefabInstance: {fileID: 5258751038160768742}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7234740745536697581
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4273963724478201859}
+    m_Modifications:
+    - target: {fileID: 7072330072724043476, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_Name
+      value: Aquaduct Full Stand (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.0899999
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.565
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.44000006
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+--- !u!4 &451205326197555768 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7072330072724043477, guid: 16cc083dbac4a4fddaf800cd6e1973d3, type: 3}
+  m_PrefabInstance: {fileID: 7234740745536697581}
+  m_PrefabAsset: {fileID: 0}
